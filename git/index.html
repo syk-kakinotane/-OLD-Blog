@@ -11,90 +11,167 @@
     <title>Codestep</title>
 </head>
 <body>
-    <header id="header">
+    <header id="header" class="header">
         <h1 class="site-title">
-            <img src="img/logo.svg" alt="logo">
+            <a href="#"><img src="img/logo.svg" alt="logo"></a>
         </h1>
         <nav class="navi">
-            <ul class="naviList">
-                <li class="naviItem">NEW</li>
-                <li class="naviItem">COLUMN</li>
-                <li class="naviItem">SERIES</li>
-                <li class="naviItem">Q&A</li>
-                <li class="naviItem">CONTACT</li>
+            <ul class="naviList wrapper">
+                <li class="naviItem"><a href="#">NEW</a></li>
+                <li class="naviItem"><a href="#">COLUMN</a></li>
+                <li class="naviItem"><a href="#">SERIES</a></li>
+                <li class="naviItem"><a href="#">Q&A</a></li>
+                <li class="naviItem"><a href="#">CONTACT</a></li>
             </ul>
         </nav>
     </header>
-    <div id="pickup" class="pickup">
-        <article>
+    <div id="pickup" class="pickup wrapper">
+        <article class="article">
             <img class="art_pic" src="img/pickup1.jpg" alt="pickup1">
-            <p>タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-            <div class="readmore">READ MORE</div>
+            <p class="pickupText">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+            <div class="readmore"><a href="#">READ MORE</a></div>
         </article>
-        <article>
+        <article class="article">
             <img class="art_pic" src="img/pickup2.jpg" alt="pickup2">
-            <p>タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-            <div class="readmore">READ MORE</div>
+            <p class="pickupText">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+            <div class="readmore"><a href="#">READ MORE</a></div>
         </article>
-        <article>
+        <article class="article">
             <img class="art_pic" src="img/pickup3.jpg" alt="pickup3">
-            <p>タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
-            <div class="readmore">READ MORE</div>
+            <p class="pickupText">タイトルテキストテキストテキストテキストテキストテキストテキスト</p>
+            <div class="readmore"><a href="#">READ MORE</a></div>
         </article>
     </div>
-    <div id="container">
-        <main>
-            <article>
+    <div id="container" class="container wrapper">
+        <main class="main">
+            <article class="mainArticle">
                 <h2>
                     <a href="#" class="article-title">タイトルテキストテキストテキストテキストテキスト</a>
                 </h2>
-                <ul>
-                    <li><a href="#">2020/01/01</a></li>
-                    <li>カテゴリ1</li>
+                <ul class="articleList">
+                    <li class="articleItem"><a href="#">2020/01/01</a></li>
+                    <li class="articleItem">カテゴリ1</li>
                 </ul>
                 <a href="#"><img src="img/main1.jpg" alt="main1"></a>
-                <p class="text">
+                <p class="articleText">
                     本文テキストテキストテキストテキストテキストテキストテキストテキスト
                     テキストテキストテキストテキストテキストテキストテキストテキストテキスト
                     テキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p> 
                 <div class="readmore"><a href="#">READ MORE</a></div>   
             </article>
-            <article>
+            <article class="mainArticle">
                 <h2>
                     <a href="#" class="article-title">タイトルテキストテキストテキストテキストテキスト</a>
                 </h2>
-                <ul>
+                <ul class="articleList">
                     <li><a href="#">2020/01/01</a></li>
                     <li>カテゴリ1</li>
                 </ul>
                 <a href="#"><img src="img/main2.jpg" alt="main2"></a>
-                <p class="text">
+                <p class="articleText">
                     本文テキストテキストテキストテキストテキストテキストテキストテキスト
                     テキストテキストテキストテキストテキストテキストテキストテキストテキスト
                     テキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p> 
                 <div class="readmore"><a href="#">READ MORE</a></div>   
             </article>
-            <article>
+            <article class="mainArticle">
                 <h2>
                     <a href="#" class="article-title">タイトルテキストテキストテキストテキストテキスト</a>
                 </h2>
-                <ul>
+                <ul class="articleList">
                     <li><a href="#">2020/01/01</a></li>
                     <li>カテゴリ1</li>
                 </ul>
                 <a href="#"><img src="img/main3.jpg" alt="main3"></a>
-                <p class="text">
+                <p class="articleText">
                     本文テキストテキストテキストテキストテキストテキストテキストテキスト
                     テキストテキストテキストテキストテキストテキストテキストテキストテキスト
                     テキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p> 
                 <div class="readmore"><a href="#">READ MORE</a></div>   
             </article>
-
         </main>
+        <aside class="aside">
+            <section class="sectoinProfile">
+                <img class="profilePic" src="img/profile.jpg" alt="profile">
+                <h2 class="profileName">Name Name</h2>
+                <p class="profileText">プロフィールテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+            </section>
+            <section class="ranking">
+                <h2 class="asideTitle">Ranking</h2>
+                <article class="rankingArticle">     
+                    <img src="img/rank1.jpg" alt="rank1">
+                    <p class="rankingText">タイトルテキストテキストテキストテキストテキストテキスト</p>
+                </article>
+                <article class="rankingArticle">
+                    <img src="img/rank1.jpg" alt="rank1">
+                    <p class="rankingText">タイトルテキストテキストテキストテキストテキストテキスト</p>
+                </article>
+                <article class="rankingArticle">
+                    <img src="img/rank3.jpg" alt="rank3">
+                    <p class="rankingText">タイトルテキストテキストテキストテキストテキストテキスト</p>
+                </article>
+            </section>
+            <section>
+                <h2 class="asideTitle">Archive</h2>
+                <ul class="archiveList">
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                    <li class="archiveItem"><a href="#">XXXX年XX月</a>(XX)</li>
+                </ul>
+            </section>
+        </aside>
     </div>
+    <footer>
+        <div class="fotterContent">
+            <section class="footerSection">
+                <h3 class="footerTitle">About</h3>
+                <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+                <ul class="footerList">
+                    <li class="footerItem"><a href="#">プロフィール詳細</a></li>
+                    <li class="footerItem"><a href="#">お仕事の依頼</a></li>
+                    <li class="footerItem"><a href="#">お問い合わせ</a</li>
+                </ul>
+            </section>
+            <section class="footerSection">
+                <h3 class="footerTitle">Menu</h3>
+                <ul class="menuList">
+                    <li class="menuItem">NEW<a href="#"></a</li>
+                    <li class="menuItem">CATEGORY<a href="#"></a</li>
+                    <li class="menuItem">COLUMN<a href="#"></a</li>
+                    <li class="menuItem">SERIES<a href="#"></a</li>
+                    <li class="menuItem">Q&A<a href="#"></a</li>
+                </ul>
+
+            </section>
+            <section class="footerSection">
+                <h3 class="footerTitle">twitter</h3>
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">we are working on an edit button</p>&mdash; Twitter (@Twitter) <a href="https://twitter.com/Twitter/status/1509951255388504066?ref_src=twsrc%5Etfw">April 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </section>
+        </div>
+    </footer>
   
 </body>
 </html>
