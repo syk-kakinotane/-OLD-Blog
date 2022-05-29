@@ -235,6 +235,10 @@ li {
     margin-top: -6px;
 }
 
+.footerList{
+    padding: 0;
+}
+
 .menuList{
     padding: 0;
 }
